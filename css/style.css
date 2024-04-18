@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: antiquewhite;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 70px;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+li {
+    display: inline;
+    margin-right: 100px;
+
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav {
+    margin-bottom: 20px;
+}
+a:hover {
+    color: blue;
+}
+li:last-child {
+    margin-right: 0px;
+}
+.section-about {
+    height: 900px;
+    background-image: url(../img/fon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.section-about__block {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244, 217, 180, 0.7) 0%, rgba(235, 160, 70, 0.8) 100%) ;
+    position: absolute;
+    left: 1400px;
+    top: 400px; 
+    padding-top: 25px;  
+}
+.section-about__border {
+    width: 360px;
+    height: 140px;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 17px 0 0 28px; 
+    text-align: left;
+}
+.tittle {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 9px;
+}
+.text {
+    font-size: 12px;
+    margin: 0;
+}
+.section-description {
+    margin-bottom: 30px;
+}
+.section-description__foto-box {
+    text-align: center;
+    margin-bottom: 30px;   
+}
+.section-description__foto-box img {
+    margin-right: 100px;
+    border-radius: 50px;
+    width: 300px;
+    height: 300px;
+}
+.section-description__foto-box img:last-child {
+    margin-right: 0px;
+}
+.description__text-box-tittle {
+    font-size: 60px;
+    text-align: center;
+}
+.escription__text-box-span {
+    color: brown;
+}
+.description__text-box-text {
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.section-map-tittle {
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+hr {
+    border: none;
+    border-top: 2px solid #000000;
+    width: 1000px;
+    margin: 0 auto;
+}
+footer {
+    height: 80px;
+}
+.description__text-box {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
